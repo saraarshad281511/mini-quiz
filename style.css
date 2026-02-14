@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: lightblue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: lightgray;
+
+}
+
+#feedback {
+    font-weight: bold;
+    text-align: center;
+}
+
+#progress,
+#score {
+    text-align: center;
+}
